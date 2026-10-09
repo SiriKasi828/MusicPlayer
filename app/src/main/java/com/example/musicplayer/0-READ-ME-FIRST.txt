@@ -1,0 +1,23 @@
+MUSIC PLAYER - READY-MADE PROJECT FILES (Level 3: API + background playback)
+
+Do these in order:
+
+1. In Android Studio, open the Project panel (left side, set to "Android" view).
+   Expand: app > kotlin+java > com.example.musicplayer
+
+2. Copy the 6 files from the "kotlin-files" folder into that package folder:
+   Song.kt, Screens.kt, Api.kt, PlaybackService.kt, MusicViewModel.kt, MainActivity.kt
+   (Easiest: drag them in. When it asks to overwrite MainActivity.kt, say YES.)
+
+3. Open file "1-paste-into-build.gradle.kts.txt", follow it, then click Sync Now.
+
+4. Open file "2-paste-into-AndroidManifest.xml.txt", follow it (two pastes).
+
+5. Click the green Run button. Songs load, tap one to play.
+   Lock the screen (power button on the emulator toolbar): music keeps playing.
+
+6. Build APK: Build > Generate App Bundles or APKs > Generate APKs > Build APK(s)
+   Then push to a public GitHub repo and submit repo link + APK in the form.
+
+If the package name of your project is not com.example.musicplayer, change the
+first line "package ..." in all 6 files to match yours.
