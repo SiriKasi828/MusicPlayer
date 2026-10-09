@@ -1,6 +1,6 @@
 # Music Player App
 
-A Spotify-style music player for Android, built with **Kotlin** and **Jetpack Compose** for the Android Development recruitment task.
+A music player for Android, built with **Kotlin** and **Jetpack Compose** for the Android Development recruitment task.
 
 ## Level completed
 
@@ -33,16 +33,6 @@ A Spotify-style music player for Android, built with **Kotlin** and **Jetpack Co
 - Background playback using a Media3 `MediaSessionService`: music keeps playing when the app is minimized or the screen is off
 - Notification and lock-screen controls
 - Songs in a row or search result play as a queue (Next / Previous move through it)
-
-## Screenshots
-
-Add your screenshots to a `screenshots` folder in the repo and link them here:
-
-```
-![Home](screenshots/home.png)
-![Search](screenshots/search.png)
-![Now Playing](screenshots/now_playing.png)
-```
 
 ## Tech stack
 
